@@ -13,6 +13,9 @@ mkdir ~/.config/nvim/plugins
 ```sh
 mkdir ~/.config/nvim/plugins/plugged
 ```
+```sh
+sudo pacman -S nodejs npm
+```
 `:PlugInstall`
 ### coc
 ```sh
@@ -22,3 +25,8 @@ sudo pacman -S python2 python python-pip
 ```sh
 python3 -m pip install --user --upgrade pynvim
 ```
+- https://github.com/pappasam/jedi-language-server
+```sh
+pip install -U jedi-language-server
+```
+`:CocInstall coc-json coc-python coc-snippets coc-vimlsp coc-tsserver coc-spell-checker coc-yank coc-jedi`
