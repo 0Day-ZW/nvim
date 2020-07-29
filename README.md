@@ -14,3 +14,11 @@ mkdir ~/.config/nvim/plugins
 mkdir ~/.config/nvim/plugins/plugged
 ```
 `:PlugInstall`
+### coc
+```sh
+sudo pacman -S python2 python python-pip
+```
+- :help provider-python
+```sh
+python3 -m pip install --user --upgrade pynvim
+```
